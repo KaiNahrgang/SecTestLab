@@ -1,4 +1,5 @@
 FROM jenkins/jenkins
+MAINTAINER kai.nahrgang@edu.fh-joanneum.at
 
 USER root
 RUN apt-get update \
